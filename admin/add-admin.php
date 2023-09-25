@@ -1,4 +1,4 @@
-<?php include('partials/menu.php');
+<?php include('partials/menu.php'); // uygdj;hxb
 $servername = "localhost";
 $username = "root";
 $password = "";

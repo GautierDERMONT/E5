@@ -1,0 +1,216 @@
+/*
+Auteurs : BTS SIO Ensup 2023 2024
+Fichier CSS pour la page admin.php
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*CSS pour le pied de page*/
+/*Couleur du fond de la section en #0984e3*/
+.footer{
+    background-color: #0984e3;
+}
+
+.success{
+    color: rgb(27, 194, 27);
+}
+
+.error{
+    color:#CA2626;
+}
+
+/*CSS pour les menus*/
+.menu{
+    border-bottom: 2px solid whitesmoke ;/*Couleur du contour de la section*/
+}
+.menu ul li a:hover{
+    color: #00cec9; /*Couleur du lien quand l'utilisateur se positionne dessus*/
+}
+.menu ul{
+    list-style-type: none
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/*CSS pour la section principale*/
+.main-content{
+    margin: 1% 0; /*SÃ©paration des sections*/
+    padding: 2% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: whitesmoke; /*Couleur du fond de la zone des donnÃ©es*/
+    margin: 1%; /*Marge de la zone dans la section*/
+    padding: 2%;
+    float: left;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* Style pour le conteneur du formulaire */
+.tbl-35 {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* Style pour les étiquettes (Première colonne) */
+.tbl-35 td:first-child {
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style pour les champs de saisie (Deuxième colonne) */
+.tbl-35 input[type="text"],
+.tbl-35 input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+table tr td{
+    padding: 2%;
+}
+table tr th{
+    border-bottom: 1px solid brown;
+    padding: 2%;
+    text-align: left;
+}
+
+/*CSS pour les boutons*/
+.btn-primary {
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(0.9); 
+
+}
+
+.btn-secondary{
+    color: #ffffff;
+    background-color: #ffc107;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+
+    
+}
+
+.btn-secondary:hover{
+    background-color: #EDE580;
+    transform: scale(0.9);
+
+
+}
+
+.btn-secondary2{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; 
+    color: #ffffff; 
+    cursor: pointer;
+    
+}
+
+.btn-secondary2:hover{
+    background-color: #0056b3; 
+    transform: scale(0.9); 
+
+
+}
+
+.btn-danger{
+    color: #ffffff;
+    background-color: #11ea2b;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-danger:hover{
+    background-color: #61f66e;
+    transform: scale(0.9); 
+
+}
+
+
+.btn-mmdp{
+    color: #ffffff;
+    background-color: #ff0000;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.btn-mmdp:hover{
+    background-color: #f05757;
+    transform: scale(0.9); /* Agrandissement de 20% lors du survol */
+
+}
+/*Suppression de la visibilitÃ© hypertexte*/
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;      /*Fonte en gras*/
+    color: #0984e3;
+}
+
+/*centrage du texte*/
+.text-center{
+    text-align: center;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 85%;
+    margin:0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}

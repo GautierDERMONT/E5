@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Restaurant@Ensup 2023-2024</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Section de Navigation -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Le Baratie</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Catégories</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">Les plats</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Fin Section Navigation -->
+
+            <section>
+                <h2>Formulaire de contact</h2>
+                <form action="traitement.php" method="post">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+
+                    <label for="adresse">Adresse :</label>
+                    <input type="text" id="adresse" name="adresse" required>
+
+                    <label for="tel">Téléphone :</label>
+                    <input type="text" id="tel" name="tel" required>
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <input type="submit" value="Envoyer" class="animated-button">
+                </form>
+            </section>
+
+            <section>
+                <h2>Nos réseaux sociaux:</h2>
+
+                <br>
+                <p>Restons connectés ! Suivez-nous sur les réseaux sociaux pour les dernières mises à jour, offres spéciales et actualités passionnantes.
+                </p>
+                <br>
+                <a class="social-icon" target ="_blank" href="https://www.instagram.com/">
+                    <img src="images/Insta.png" height="50" width="50">
+                </a>
+                &nbsp; &nbsp; &nbsp; 
+                <a  class="social-icon" target ="_blank" href="https://www.facebook.com/">
+                    <img src="images/facebook.png" height="50" width="50">
+                </a>
+                &nbsp; &nbsp; &nbsp; 
+                <a  class="social-icon" target ="_blank" href="https://www.linkedin.com/">
+                    <img src="images/linkedin.png" height="50" width="50">
+                
+            </section>
+
+        </main>
+        <footer>
+            <p>&copy; 2023 Votre Entreprise. Tous droits réservés.</p>
+        </footer>
+    </body>
+    </html>
